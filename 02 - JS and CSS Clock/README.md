@@ -1,10 +1,10 @@
-vascript30 - DAY 2 - JS and CSS Clock
+Javascript30 - DAY 2 - JS and CSS Clock
 ========================================
 步驟
 ---
 1.把指針的樣式做好 (transform, transition)
 2.用 js 把分秒時針都抓出來
-3.設定每秒執行一次去抓新的時間,且改變指針該轉的角度
+3.設定每秒執行一次去抓新的時間,且改變指針該轉的角
 
 心得
 ---
