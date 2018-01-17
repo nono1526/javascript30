@@ -3,7 +3,9 @@ vascript30 - DAY 4 - Array Cardio
 
 ## 心得
 這回沒有 CSS 都是 JS 有關陣列和物件操作的一些題目,  
-很多很方便的 Array API,  
+
+很多很方便的 Array API, 
+
 如果能使用這些 API 來操作陣列,  
 一定可以比以前省下許多時間,  
 且有更高的可讀性！,  
