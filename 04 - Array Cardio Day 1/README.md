@@ -13,21 +13,21 @@ vascript30 - DAY 4 - Array Cardio
 ### filter
 
 `Array.fliter();` 會把回傳為 ```true``` 的陣列保留
-```
+```javascript
     const ans1 = inventors.filter(inventor => 
         inventor.year >= 1500 && inventor.year < 1600);
 ```
 
 ### map 
 `Array.map()` 走訪陣列, 回傳的值組成新的陣列
-```  
+``` javascript
 const eventorsName = inventors.map( inventor => `${inventor.first} ${inventor.last}`);
 ```
 
 ### sort 
 `Array.sort()` 沒有給參數就會由小到大排序,
 可自訂排序方式
-```
+```javascript
     const sortByBirthdate = inventors.sort((a, b) 
         => a.year > b.year ? 1 : -1);
 
@@ -47,7 +47,7 @@ for (let i = 0; i < inventors.length; i++) {
 ```
 沒有使用 reduce 是要打這些來加總
 
-```    
+```javascript
 const totalLive = inventors.reduce(
     (total, inventor) => total + (inventor.passed - inventor.year)
     ,0);
