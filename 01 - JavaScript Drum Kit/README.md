@@ -1,5 +1,6 @@
 製作步驟
 =========
+[DEMO](https://nono1526.github.io/javascript30/01%20-%20JavaScript%20Drum%20Kit/index-nono.html)
 <p>
 1.抓出鍵盤輸入的keycode ，加入鍵盤事件傾聽者(addEventListener)來抓取使用者所鍵入的按鍵</br>
 2.將抓出的 keycode 找到對應的 div 並將 div 加上新的 class 來改變外觀</br>
