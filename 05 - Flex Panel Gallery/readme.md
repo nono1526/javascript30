@@ -1,5 +1,6 @@
 vascript30 - DAY 5 - Flex Panels
 ==================================
+[DEMO](https://nono1526.github.io/javascript30/05%20-%20Flex%20Panel%20Gallery/index-nono.html)
 ## 步驟紀錄
 1. 設定大的區塊 flex
 原本題目是將每個 .panel 裝在 .panels 裡,  
@@ -17,7 +18,7 @@ vascript30 - DAY 5 - Flex Panels
 4. 設定開啟區塊動畫
 將開啟後 flex 區塊比例以及字體條大  
 
-5. 使用 JS 將 panel 設定 click 和 transitionend 事件就完成了！
+5. 使用 JS 將 panel 設定 click 和 transitionend 事件就完成了!  
 注意 transitionend DAY 也有使用到必須要抓到 flex 屬性完成後才做動作  
 
 ## CSS 紀錄
