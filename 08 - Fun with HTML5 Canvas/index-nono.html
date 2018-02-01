@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Canvas</title>
+</head>
+<body>
+<canvas id="draw" width="800" height="800"></canvas>
+<script>
+  const canvas = document.querySelector('#draw');
+  const ctx = canvas.getContext('2d');
+  //把 canvas 設定成視窗大小
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  ctx.strokeStyle = 'black';//畫筆顏色
+  ctx.lineCap = 'round'; //將畫筆加上圓角
+  ctx.lineJoin = 'round'; //當線條與其他交會時加上圓角
+  ctx.lineWidth = 10;
+
+  let isDraw = false;
+  let lastX = 0;
+  let lastY = 0;
+  let hue = 0;
+  let direction = true;
+  function draw(e){
+    //console.log(e);
+    if(!isDraw){return;}
+    ctx.strokeStyle = `hsl(${hue},100%,50%)`;
+    ctx.beginPath();
+    //畫筆起點
+    ctx.moveTo(lastX,lastY);
+    //畫筆終點
+    ctx.lineTo(e.offsetX, e.offsetY);
+    ctx.stroke();
+    [lastX, lastY] = [e.offsetX, e.offsetY]
+    hue++;
+    if(hue>360){
+      hue = 0;
+    }
+    if(ctx.lineWidth >= 100 || ctx.lineWidth <=1){
+      direction = !direction;
+    }
+    direction ? ctx.lineWidth++ : ctx.lineWidth--;
+  }
+  window.addEventListener('mousemove',draw);
+  window.addEventListener('mousedown',(e) => {
+    [lastX, lastY] = [e.offsetX, e.offsetY]
+    isDraw = true;
+  });
+  window.addEventListener('mouseup',() => isDraw = false);
+  window.addEventListener('mouseout',() => isDraw = false);
+</script>
+
+<style>
+  html, body {
+    margin:0;
+  }
+</style>
+
+</body>
+</html>
