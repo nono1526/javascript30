@@ -1,5 +1,6 @@
 Javascript30 - DAY 9 -Console Tricks!
 =====================================
+[DEMO](https://nono1526.github.io/javascript30/09%20-%20Dev%20Tools%20Domination/index-nono.html)
 ## 目標 
 這一集學習了 Chrome 開發工具的一些小技巧
 ## 紀錄
