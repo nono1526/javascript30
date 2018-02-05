@@ -1,5 +1,6 @@
 Javascript30 - DAY10 - Hold Shift to Checked!
 ============================================
+[DEMO](https://nono1526.github.io/javascript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/index-nono.html)
 ## 目標
 可以用 shift 多選 checkbox
 ## 步驟
@@ -17,3 +18,4 @@ Javascript30 - DAY10 - Hold Shift to Checked!
 所以在加上判斷有無 lastClicked 在進行走訪 checkbox 
 `if( e.shiftKey && this.checked && lastClicked){ //若按下 shift
 `
+##### tag: javascript30
