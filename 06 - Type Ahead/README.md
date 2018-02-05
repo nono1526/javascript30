@@ -1,5 +1,6 @@
 JavaScript30 - DAY 6 - Type Ahead
 ==================================
+[DEMO](https://nono1526.github.io/javascript30/06%20-%20Type%20Ahead/index-nono.html)
 ## 目標
 製作一個讓使用者 keyin 去搜尋地方歡迎程度的功能
 ## 步驟

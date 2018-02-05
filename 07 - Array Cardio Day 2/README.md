@@ -1,5 +1,6 @@
 Javascript30 - Day7 - Array Cardio
 ===================================
+[DEMO](https://nono1526.github.io/javascript30/07%20-%20Array%20Cardio%20Day%202/index-nono.html)
 ## 心得
 共四題陣列的操作,也是用一些我之前沒看過得語法
 ## 紀錄

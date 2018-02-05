@@ -1,5 +1,6 @@
 Javascript30 - Day8 - Canvas
 ============================
+[DEMO](https://nono1526.github.io/javascript30/08%20-%20Fun%20with%20HTML5%20Canvas/index-nono.html)
 ## 目標
 使用 canvas 製作一個網頁畫布
 ## 紀錄
