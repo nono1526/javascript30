@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+<script>
+  const pressed = [];
+  const keyword = 'nonogg';
+  window.addEventListener('keyup', (e) => {
+    pressed.splice(-keyword.length - 1 /* -7 刪除由最後一個數回來開始刪除*/, pressed.length - keyword.length );
+    if(pressed.join('').includes(keyword)){
+      console.log('BANG!!');
+      cornify_add();
+
+    }
+    console.log(pressed);
+  });
+</script>
+</body>
+</html>
