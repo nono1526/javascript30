@@ -1,6 +1,6 @@
 Javascript30 - DAY 12 - Key Detection
 =====================================
-[DEMO](https://nono1526.github.io/javascript30/12 - Key Sequence Detection/index-nono.html)
+[DEMO](https://nono1526.github.io/javascript30/12%20-%20Key%20Sequence%20Detection/index-nono.html)
 ## 目標
 做出可以在網頁中打出特殊的通關密碼,  
 就可以出現特別的彩的東西
