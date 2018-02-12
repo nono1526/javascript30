@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Reference VS Copy</title>
+</head>
+<body>
+
+  <script>
+    // start with strings, numbers and booleans
+    let name = 'nono';
+    let name2 = name;
+    name2 = 'cindy'; //name 還是 nono 不會改變
+    console.log(name);
+    // Let's say we have an array
+    const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
+    const gods = players;
+    gods[1] = 'nono';
+    console.log(players);  //改變 gods[1] 時 ,因同時是傳址改變所以連 players 都有改變
+    // and we want to make a copy of it.
+    const mans = players.slice();
+    mans[0] = 'cindy';
+    console.log(players); //此時就不會更改到 players 的內容
+
+    //或使用 es6 ... 語法來複製整個陣列
+    const girls = [...players];
+
+    // The same thing goes for objects, let's say we have a person object
+
+    // with Objects
+    const person = {
+      name: 'Wes Bos',
+      age: 80
+
+    };
+    const person2 = {
+      name: 'Wes Bos',
+      age: 80,
+      skill:{
+        date:'19950101',
+        tag: 'good'
+      }
+      
+    };
+    //object 其實也同 array
+
+    const cap = Object.assign({}, person, {work: 'sleep', age:12});
+    console.log(cap);
+    cap.person = 'nono';
+    console.log(person);
+    //但用到兩層以上的物件無法用 Object.assign 去複製
+    //必須使用
+    cap2 = JSON.parse(JSON.stringify(person2));
+    console.log(cap2);
+    // and think we make a copy:
+
+    // how do we take a copy instead?
+
+    // We will hopefully soon see the object ...spread
+
+    // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
+
+  </script>
+
+</body>
+</html>
