@@ -1,6 +1,6 @@
 Javascript30 - DAY16 - Mouse Shadow
 ==================================
-(DEMO)[https://nono1526.github.io/javascript30/16%20-%20Mouse%20Move%20Shadow/index-nono.html]
+[DEMO](https://nono1526.github.io/javascript30/16%20-%20Mouse%20Move%20Shadow/index-nono.html)
 ## 目標
 做出一個很酷的跟著鼠標一起滑動的分身～
 ## 紀錄
