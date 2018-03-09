@@ -49,4 +49,4 @@
 27. [Click and Drag](https://nono1526.github.io/javascript30/27%20-%20Click%20and%20Drag/index-nono.html)
 28. [Video Speed Scrubber](https://nono1526.github.io/javascript30/28%20-%20Video%20Speed%20Controller/index-nono.html)
 29. [Countdown Timer](https://nono1526.github.io/javascript30/29%20-%20Countdown%20Timer/index.html)
-30. [Whack-a-mole! (打地鼠)](https://nono1526.github.io/javascript30/30%20-%20Whack%20A%20Mole/index-nono.html)
+30. [Whack-a-mole!](https://nono1526.github.io/javascript30/30%20-%20Whack%20A%20Mole/index-nono.html)
