@@ -1,6 +1,18 @@
-# Javascript30 - Day30 - Whack A Mole
+---
+title: Javascript30 - Day30 - Whack A Mole
+date: 2018-03-12 12:15:52
+categiries:
+- javascript30
+tags:
+- javscript
+- frontend
+---
+[[DEMO](https://nono1526.github.io/javascript30/30%20-%20Whack%20A%20Mole/index-nono.html)] - [[GitHub](https://github.com/nono1526/javascript30/tree/master/30%20-%20Whack%20A%20Mole)]
+
+![js30-30](https://i.imgur.com/CqDh11I.gif)
+
 ## 目標
-做一個踩地雷小遊戲,  
+做一個打地鼠小遊戲,  
 最後一天了！！！
 ## 步驟
 1. 先抓到要控制的 html tag, 還定義有要使用的變數
