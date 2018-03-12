@@ -1,5 +1,5 @@
 # Javascript30 - DAY 22 - Follow Along Link Highlighter
-[DEMO](https://nono1526.github.io/javascript30/22%20-%20Follow%20Along%20Link%20Highlighter/index-START.html)
+[DEMO](https://nono1526.github.io/javascript30/22%20-%20Follow%20Along%20Link%20Highlighter/index-nono.html)
 ## 目標
 這邊作者原本是介紹一個 dropdown 在 hover 時,  
 會用同一個區塊去跑動他,  
